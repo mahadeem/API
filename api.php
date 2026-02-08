@@ -28,7 +28,7 @@
 						}
                     xhr.setRequestHeader("Authorization", "Bearer" +apiKey); //see developer mozilla
 						// xhr.open('GET', url,true);
-						xhr.setRequestHeader('Api-User-Agent', 'layertops.com');
+						xhr.setRequestHeader('Api-User-Agent', 'example.com'); //or add your website
 						xhr.setRequestHeader('Content-Type', 'application/json');
 						xhr.setRequestHeader('Content-Type', 'text/html');
 				}
