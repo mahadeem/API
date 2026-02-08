@@ -1,5 +1,5 @@
 <Doctype html>
-    <head>
+<head>
 </head>
 <body>
     <?php
@@ -22,11 +22,11 @@
                 alert(xhr.responseText);
 					console.log(xhr.responseText);
 					var response = xhr.responseText;
-                    var element = document.querySelector('#title');  // Hash# sign required. this line does not populate result  
+                    var element = document.querySelector('#title');  // Hash# sign required
 					if (element) {
 						element.textContent = response;
 						}
-                    xhr.setRequestHeader("Authorization", "Bearer" +apiKey);
+                    xhr.setRequestHeader("Authorization", "Bearer" +apiKey); //see developer mozilla
 						// xhr.open('GET', url,true);
 						xhr.setRequestHeader('Api-User-Agent', 'layertops.com');
 						xhr.setRequestHeader('Content-Type', 'application/json');
