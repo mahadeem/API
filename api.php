@@ -12,7 +12,7 @@
         var g = "<?php echo"$search"?>";
         document.write(g);
         // alert(g);
-        var u = 'url';
+        var u = 'url'; // url from
         var l = '/html';
         var url = u + g + l;
         console.log(url);
@@ -28,7 +28,7 @@
 						}
                     xhr.setRequestHeader("Authorization", "Bearer" +apiKey); //see developer mozilla
 						// xhr.open('GET', url,true);
-						xhr.setRequestHeader('Api-User-Agent', 'example.com'); //or add your website
+						xhr.setRequestHeader('Api-User-Agent', 'example.com'); //or add your website where to populate parsed data
 						xhr.setRequestHeader('Content-Type', 'application/json');
 						xhr.setRequestHeader('Content-Type', 'text/html');
 				}
